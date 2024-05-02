@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+.dark-green{
+    color: rgb(34,61,79);
+}
+.normal-green{
+    color :rgb(78,178,144);
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.header{
+    height: 100vh;
+    background-image: url("./images/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.header p{
+    width: 30%;
+    text-align: center;
+    font-style: italic;
+}
+.header button{
+    border: 3px solid rgb(86,202,173);
+    border-radius: 20px;
+    width: 10%;
+    padding-top: 10px ;
+    padding-bottom:10px ;
+}
+
+
+.welcome-section{
+    background-color: aqua;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+.welcome-content{
+    border-left: 10px solid green;
+    border-right: 10px solid green;
+
+}
+.ideas-container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    gap: 10px;
+
+}
+.ideas-container div{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.ideas-container img{
+    width: 50px;
+    margin: auto;
+    border-radius: 10px;
+}
+.bg-blue{
+    background-color: blue;
+
+}
+.bg-green{
+    background-color: green;
+
+}
+.working-benifit h1{
+    text-align: center;
+}
+.working-benifit{
+    width: 80%;
+    margin: auto;
+    
+}
+.working-benifit .row1, .working-benifit .row2{
+    display: flex;
+    gap: 10px;
+    padding-top: 10px;
+    text-align: center;  
+    
+}
+.working-benifit .row1 div, .working-benifit .row2 div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 15px;
+    padding: 10px;
+
+}
+.text-white{
+    color: aliceblue;
+
+}
+.text-gray{
+    color: gray;
+}
+p{
+    font-size: 15px;
+    line-height: 27px;
+}
+.coaching{
+    background: linear-gradient(to bottom, #2e5776e5, #2e5776e5),
+    url("./images/coaching.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+    gap: 30px;
+
+}
+.coaching p{
+    max-width: 400px;
+    margin: auto;
+}
+ /* roadmap part */
+.road-map {
+    width: 80%;
+    margin: auto;
+    display: flex;   
+}
+
+.img{
+    width: 300px;
+}
+
+.road-map div{
+    text-align: center;
+    padding-top: 60px;
+    max-width: 400px;
+    
+}
+
+.learning{
+    
+    background: linear-gradient(to bottom, #2e5776e5, #2e5776e5),
+    url("./images/vector.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+
+}
+.first-row{
+    width: 70%;
+}
+
+.second-row{
+    display: flex;
+    
+    gap: 20px;
+    justify-content: space-between;
+    
+
+}
+.second-row div{
+    width: 50%;
+}
+.stat{
+    display: flex;
+}
+.team-professionals img{
+    width: 150px;
+    background-color: gray;
+    border-radius: 20px;
+}
+.team-professionals h1{
+    text-align: center;
+}
+
+.team-professionals .parent{
+    display: flex;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+
+.registration{
+    background-color: greenyellow;
+    padding-left: 15%;
+    padding-right: 15%;
+    
+    display: flex;
+    gap: 100px;
+
+}
+footer{
+    text-align: center;
+    padding: 40px 0;
+    background-color: rgb(78,178,144);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
